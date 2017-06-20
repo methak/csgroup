@@ -1,5 +1,3 @@
-# [csgroup](https://telegram.me/csgroup)
+# [csgroup](https://telegram.me/Plas_Team)
 * **Install Bot**
-`````sh
-http://tarfand.pro
-`````
+
