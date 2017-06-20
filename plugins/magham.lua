@@ -2,15 +2,15 @@ do
 
 local function run(msg, matches)
 if matches[1]=="مقام من" and is_sudo(msg) then 
-return  " ساخته شده توسط @kinghazrat   شما صاحب ربات و سودو میباشید"
+return  " ساخته شده توسط @sudo_wolf   شما صاحب ربات و سودو میباشید"
 elseif matches[1]=="مقام من" and is_admin(msg) then 
-return  " ساخته شده توسط @kinghazrat   شما ادمین ربات و یک مقام پایین تر ازسودو میباشید"
+return  " ساخته شده توسط @sudo_wolf   شما ادمین ربات و یک مقام پایین تر ازسودو میباشید"
 elseif matches[1]=="مقام من" and is_owner(msg) then 
-return  " ساخته شده توسط @kinghazrat   شما سازنده و صاحب گروه میباشید"
+return  " ساخته شده توسط @sudo_wolf   شما سازنده و صاحب گروه میباشید"
 elseif matches[1]=="مقام من" and is_mod(msg) then 
-return  " ساخته شده توسط @kinghazrat   شما کمک مدیراین گروه میباشید"
+return  " ساخته شده توسط @sudo_wolf   شما کمک مدیراین گروه میباشید"
 else
-return  " ساخته شده توسط @kinghazrat   شما هیچ مقامی در ربات ندارید"
+return  " ساخته شده توسط @sudo_wolf   شما هیچ مقامی در ربات ندارید"
 end
 
 end
